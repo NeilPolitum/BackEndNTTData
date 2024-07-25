@@ -8,7 +8,7 @@ public class ClienteTest {
     @Test
     public void testClienteGettersAndSetters() {
         Cliente cliente = new Cliente();
-        cliente.setId(23445322);
+        cliente.setId(23445322L);
         cliente.setFirstName("Daniel");
         cliente.setMiddleName("Santiago");
         cliente.setLastName("Rubiano");
