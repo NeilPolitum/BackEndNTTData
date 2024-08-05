@@ -90,7 +90,7 @@ public class ClienteController {
         log.info("Solicitud para crear un nuevo cliente");
         try {
             Cliente savedCliente = clienteService.save(cliente);
-            log.info("Cliente creado exitosamente con ID");
+            log.info("Cliente creado exitosamente");
             return new ResponseEntity<>(savedCliente, HttpStatus.CREATED);
         } catch (Exception e) {
             log.error("Error al crear cliente", e);
